@@ -56,7 +56,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
             gamePlaying = false;
         } else {
             //Next player 
-            extPlayer();
+            nextPlayer();
         }
     }
 });
@@ -81,7 +81,7 @@ function gameStart() {
     scores = [0, 0];
     activePlayer = 0;
     roundScore = 0;
-    var gamePlaying = true;
+    gamePlaying = true;
 
 
     document.querySelector('.dice').style.display = 'none';
